@@ -1,0 +1,166 @@
+/* commons */
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #3F3657;
+}
+
+p{
+  line-height: 24px;
+}
+
+::-webkit-input-placeholder {
+   color: #bababa;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #bababa;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #bababa;
+}
+
+:-ms-input-placeholder {
+   color: #bababa;
+}
+
+input, button{
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+body, html{
+  height: 100%;
+
+}
+
+body{
+  background: #dae7e7;
+}
+
+aside, section{
+  float: left;
+  height: 600px;
+}
+
+main{
+  width: 1024px;
+  margin: 60px auto 0;
+  overflow: hidden;
+}
+
+/* aside */
+aside{
+  width: 33%;
+  background: #86B2B3;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  text-align: center;
+}
+.user-info{
+  height: 200px;
+  border-bottom: 1px solid #fbf8f4;
+}
+.user-info img{
+  border-radius: 40px;
+  width: 80px;
+  margin: 30px 0 15px;
+}
+.username{
+  color: white;
+}
+.status{
+  font-size: 13px;
+  color: #dae7e7;
+}
+
+/* section */
+section{
+  width: 67%;
+  background: white;
+  border-bottom-right-radius: 15px;
+}
+
+/* content header */
+.content-header{
+  margin: 0 15px;
+  padding: 20px 10px;
+  border-bottom: 1px solid #fbf8f4;
+}
+
+
+/* content body */
+.content-body{
+  padding: 20px 20px;
+  height: 435px;
+  overflow: auto;
+  line-height: 30px;
+}
+.msg-container{
+  width: 200px;
+  padding: 10px 15px;
+  float: right;
+  background: #86B2B3;
+  clear: both;
+  border-radius: 12px;
+  border-top-right-radius: 0;
+  margin: 10px;
+  display: none;
+}
+.msg-text{
+  color: white;
+  font-size: 15px;
+}
+.msg-text img{
+  width: 18px;
+}
+.msg-meta{
+  color: #d2dde1;
+  font-size: 13px;
+}
+
+/* content footer */
+.content-footer, .msg-input, .send-btn{
+  height: 60px;
+}
+.content-footer{
+  background: #fbf8f4;
+  border-bottom-right-radius: 15px;
+  position: relative;
+}
+.msg-input{
+  width: 86%;
+  float: left;
+  padding: 0 2%;
+  font-size: 16px;
+}
+.send-btn{
+  width: 10%;
+  font-size: 22px;
+  cursor: pointer;
+}
+.fa-paper-plane-o{
+  color: #86B2B3;
+}
+
+.tooltip{
+  position: absolute;
+  top: -60px;
+  left: 20px;
+  background: #86B2B3;
+  padding: 15px;
+  color: white;
+  border-radius: 5px;
+  display: none;
+}
+.arrow-down {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #86B2B3;
+}
